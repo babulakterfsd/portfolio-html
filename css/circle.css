@@ -477,7 +477,7 @@
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 .c100.p26 .bar {
   -webkit-transform: rotate(93.60000000000001deg);
