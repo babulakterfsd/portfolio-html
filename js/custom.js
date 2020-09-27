@@ -142,6 +142,14 @@
 })(jQuery);
 
 
+
+/* disable copying */
+
 document.onkeydown = function(e) {
     return 123 == event.keyCode ? (console.log("You cannot inspect Element"), !1) : e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0) ? (console.log("You cannot inspect Element"), !1) : e.ctrlKey && e.shiftKey && e.keyCode == "C".charCodeAt(0) ? (console.log("You cannot inspect Element"), !1) : e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0) ? (console.log("You cannot inspect Element"), !1) : e.ctrlKey && e.keyCode == "U".charCodeAt(0) ? (console.log("You cannot inspect Element"), !1) : void 0
 }
+
+$(document).bind("contextmenu",function(e) {  
+	e.preventDefault(); 
+ 
+}); 
