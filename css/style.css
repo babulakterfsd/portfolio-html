@@ -958,36 +958,6 @@ hr.separator {
   color: #fff !important;
 }
 
-/* Blog Post */
-
-.blog-post article {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.blog-post article h1 {
-  font-weight: 600;
-  margin: 13px 0 20px;
-}
-
-.blog-post article img {
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.blog-post .meta {
-  color: #eee;
-  font-size: 13px;
-}
-
-.blog-post .meta span {
-  padding-right: 15px;
-}
-
-.blog-post .meta i {
-  padding-right: 3px;
-}
-
 /* [ RESPONSIVE DESIGN STYLES ] */
 
 @media (min-width: 1351px) {
@@ -1043,7 +1013,7 @@ hr.separator {
     transform: translateX(-20px);
   }
 
-  .btn .btn-about:before {
+  .btn.btn-about:before {
     content: "\f007";
   }
 
