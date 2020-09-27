@@ -1043,8 +1043,12 @@ hr.separator {
     transform: translateX(-20px);
   }
 
-  .btn.btn-about:before {
+  .btn .btn-about:before {
     content: "\f007";
+  }
+
+  .btn.btn-blog:before {
+    content: "\f1ea";
   }
 
   .btn.btn-portfolio:before {
