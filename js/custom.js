@@ -96,7 +96,7 @@
         /* ----------------------------------------------------------- */
 
 		$(".contactform").on("submit", function() {
-			$(".output_message").text("Sending...");
+			$(".output_message").text("Sending from here is disabled now. please mail me from your mail manually. Thanks.");
 
 			var form = $(this);
 			$.ajax({
